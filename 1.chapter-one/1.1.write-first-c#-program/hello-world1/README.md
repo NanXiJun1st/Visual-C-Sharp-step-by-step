@@ -1,5 +1,5 @@
 ## Note  
----
+
 为确保本书中程序正常运行，请在Visual Studio 安装 
 - ASP.Net 和 Web 开发
 - Azure开发
@@ -10,14 +10,14 @@
 
   
 ## Step  
----  
+
 1. 编辑Program.cs  
 2. 编辑Program.csproj
 3. 执行‘dotnet run’
 
 ## 问题记录
----
-**dotnet运行错误01**  
+
+### dotnet运行错误01  
 ```
 $ dotnet run  
 Could not execute because the application was not found or a compatible .NET SDK is not installed.
@@ -33,7 +33,7 @@ Possible reasons for this include:
 ```
 确保已正确安装.Net SDK
 ```
-**dotnet运行错误02**  
+### dotnet运行错误02    
 ```
 The command could not be loaded, possibly because:
   * You intended to execute a .NET application:
