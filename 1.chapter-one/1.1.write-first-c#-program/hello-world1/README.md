@@ -1,4 +1,4 @@
-## note  
+## Note  
 ---
 为确保本书中程序正常运行，请在Visual Studio 安装 
 - ASP.Net 和 Web 开发
@@ -7,6 +7,13 @@
 - 通用Windows平台开发
 - 数据储存和处理
 - ~~.Net Core跨平台开发~~（Visual Studio Community 2022 17.7.3中未找到该选项）  
+
+  
+## Step  
+---  
+1. 编辑Program.cs  
+2. 编辑Program.csproj
+3. 执行‘dotnet run’
 
 ## 问题记录
 ---
