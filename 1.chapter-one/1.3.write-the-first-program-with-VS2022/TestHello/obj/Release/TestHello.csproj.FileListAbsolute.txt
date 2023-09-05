@@ -1,0 +1,7 @@
+E:\GD\Visual-c-step-by-step\1.chapter-one\1.3.write-the-first-program-with-VS2022\TestHello\bin\Release\TestHello.exe.config
+E:\GD\Visual-c-step-by-step\1.chapter-one\1.3.write-the-first-program-with-VS2022\TestHello\bin\Release\TestHello.exe
+E:\GD\Visual-c-step-by-step\1.chapter-one\1.3.write-the-first-program-with-VS2022\TestHello\bin\Release\TestHello.pdb
+E:\GD\Visual-c-step-by-step\1.chapter-one\1.3.write-the-first-program-with-VS2022\TestHello\obj\Release\TestHello.csproj.AssemblyReference.cache
+E:\GD\Visual-c-step-by-step\1.chapter-one\1.3.write-the-first-program-with-VS2022\TestHello\obj\Release\TestHello.csproj.CoreCompileInputs.cache
+E:\GD\Visual-c-step-by-step\1.chapter-one\1.3.write-the-first-program-with-VS2022\TestHello\obj\Release\TestHello.exe
+E:\GD\Visual-c-step-by-step\1.chapter-one\1.3.write-the-first-program-with-VS2022\TestHello\obj\Release\TestHello.pdb
