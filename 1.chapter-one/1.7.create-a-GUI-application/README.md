@@ -1,0 +1,2 @@
+## P.S. 
+在第一章中会把[.gitignore](https://github.com/NanXiJun1st/Visual-C-Sharp-step-by-step/blob/master/.gitignore)规则中忽略的`bin`和`obj`文件夹一起上传，以完整保留创建和生成的文件。之后的章节中非必要会按照[.gitignore](https://github.com/NanXiJun1st/Visual-C-Sharp-step-by-step/blob/master/.gitignore)的规则进行代码上传
