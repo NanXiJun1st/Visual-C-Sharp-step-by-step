@@ -1,0 +1,79 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\GD\\Visual-c-step-by-step\\1.chapter-one\\1.7.create-a-GUI-application\\HelloURP\\HelloURP\\HelloURP.csproj": {}
+  },
+  "projects": {
+    "E:\\GD\\Visual-c-step-by-step\\1.chapter-one\\1.7.create-a-GUI-application\\HelloURP\\HelloURP\\HelloURP.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\GD\\Visual-c-step-by-step\\1.chapter-one\\1.7.create-a-GUI-application\\HelloURP\\HelloURP\\HelloURP.csproj",
+        "projectName": "HelloURP",
+        "projectPath": "E:\\GD\\Visual-c-step-by-step\\1.chapter-one\\1.7.create-a-GUI-application\\HelloURP\\HelloURP\\HelloURP.csproj",
+        "packagesPath": "C:\\Users\\yisha\\.nuget\\packages\\",
+        "outputPath": "E:\\GD\\Visual-c-step-by-step\\1.chapter-one\\1.7.create-a-GUI-application\\HelloURP\\HelloURP\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "D:\\Program Files\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\yisha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "uap10.0.17763"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "uap10.0.17763": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "uap10.0.17763": {
+          "dependencies": {
+            "Microsoft.NETCore.UniversalWindowsPlatform": {
+              "target": "Package",
+              "version": "[6.2.14, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      },
+      "runtimes": {
+        "win10-arm": {
+          "#import": []
+        },
+        "win10-arm-aot": {
+          "#import": []
+        },
+        "win10-arm64-aot": {
+          "#import": []
+        },
+        "win10-x64": {
+          "#import": []
+        },
+        "win10-x64-aot": {
+          "#import": []
+        },
+        "win10-x86": {
+          "#import": []
+        },
+        "win10-x86-aot": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

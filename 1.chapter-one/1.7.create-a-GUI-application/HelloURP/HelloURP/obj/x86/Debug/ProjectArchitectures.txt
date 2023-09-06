@@ -1,0 +1,1 @@
+E:\GD\Visual-c-step-by-step\1.chapter-one\1.7.create-a-GUI-application\HelloURP\HelloURP\HelloURP.csproj;x86
