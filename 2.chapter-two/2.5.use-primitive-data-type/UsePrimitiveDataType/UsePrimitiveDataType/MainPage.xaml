@@ -12,7 +12,7 @@
         <TextBlock x:Name="title" HorizontalAlignment="Center" Margin="0,48,0,0" TextWrapping="Wrap" Text="Primitive Data Type" VerticalAlignment="Top" SelectionChanged="TextBlock_SelectionChanged" FontSize="36" FontWeight="Bold"/>
         <TextBlock x:Name="chooseAData" HorizontalAlignment="Left" Margin="288,172,0,0" TextWrapping="Wrap" Text="Choose a data type" VerticalAlignment="Top" FontSize="30"/>
         <TextBlock x:Name="simpleValue" HorizontalAlignment="Left" Margin="968,172,0,0" TextWrapping="Wrap" Text="Simple value" VerticalAlignment="Top" FontSize="30"/>
-        <ListBox x:Name="type" HorizontalAlignment="Left" Margin="309,240,0,346" Width="213" FontSize="22" SelectionChanged="typeSeletionChanged" Height="400">
+        <ListBox x:Name="type" HorizontalAlignment="Left" Margin="309,287,0,381" Width="213" FontSize="22" SelectionChanged="typeSeletionChanged" >
             <ListBoxItem HorizontalContentAlignment="Center">int</ListBoxItem>
             <ListBoxItem HorizontalContentAlignment="Center">long</ListBoxItem>
             <ListBoxItem HorizontalContentAlignment="Center">float</ListBoxItem>
