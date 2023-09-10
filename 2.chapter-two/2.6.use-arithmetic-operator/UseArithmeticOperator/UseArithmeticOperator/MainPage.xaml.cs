@@ -25,7 +25,69 @@ namespace UseArithmeticOperator
         public MainPage()
         {
             this.InitializeComponent();
+
         }
+
+
+        private void calculateClick(object sender, RoutedEventArgs e)
+        {
+            if (addition.IsChecked == true) { additiveValues(); }
+            if (subtraction.IsChecked == true) { subtractionValues(); }
+            if (multiplication.IsChecked == true) { multiplicationValues(); }
+            if (division.IsChecked == true) { divisionValues(); }
+            if (remainder.IsChecked == true) { remainderValues(); }
+
+
+        }
+
+        private void additiveValues()
+        {
+            int lhs = int.Parse(lhsOperand.Text);
+            int rhs = int.Parse(rhsOperand.Text);
+            int outcome = 0;
+            outcome = lhs + rhs;
+            expression.Text = $"Expression:{lhsOperand.Text} + {rhsOperand.Text}";
+            result.Text = $"Result:{outcome.ToString()} " ;
+        }
+
+        private void subtractionValues()
+        {
+            int lhs = int.Parse(lhsOperand.Text);
+            int rhs = int.Parse(rhsOperand.Text);
+            int outcome = 0;
+            outcome = lhs - rhs;
+            expression.Text = $"Expression:{lhsOperand.Text} - {rhsOperand.Text}";
+            result.Text = $"Result:{outcome.ToString()} ";
+        }
+        private void multiplicationValues()
+        {
+            int lhs = int.Parse(lhsOperand.Text);
+            int rhs = int.Parse(rhsOperand.Text);
+            int outcome = 0;
+            outcome = lhs * rhs;
+            expression.Text = $"Expression:{lhsOperand.Text} x {rhsOperand.Text}";
+            result.Text = $"Result:{outcome.ToString()} ";
+        }
+
+        private void divisionValues()
+        {
+            int lhs = int.Parse(lhsOperand.Text);
+            int rhs = int.Parse(rhsOperand.Text);
+            int outcome = 0;
+            outcome = lhs / rhs;
+            expression.Text = $"Expression:{lhsOperand.Text} ÷ {rhsOperand.Text}";
+            result.Text = $"Result:{outcome.ToString()} ";
+        }
+        private void remainderValues()
+        {
+            int lhs = int.Parse(lhsOperand.Text);
+            int rhs = int.Parse(rhsOperand.Text);
+            int outcome = 0;
+            outcome = lhs % rhs;
+            expression.Text = $"Expression:{lhsOperand.Text} % {rhsOperand.Text}";
+            result.Text = $"Result:{outcome.ToString()} ";
+        }
+
 
     }
 }
