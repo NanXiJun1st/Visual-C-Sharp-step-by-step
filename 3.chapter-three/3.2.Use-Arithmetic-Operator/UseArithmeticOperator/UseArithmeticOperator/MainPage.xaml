@@ -1,0 +1,27 @@
+﻿<Page
+    x:Class="UseArithmeticOperator.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:UseArithmeticOperator"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid Margin="0,-7,0,0">
+        <TextBlock x:Name="lhs" HorizontalAlignment="Left" Margin="300,100,0,0" TextWrapping="Wrap" Text="lhsOperand" VerticalAlignment="Top" FontSize="36" FontWeight="Bold"/>
+        <TextBlock x:Name="rhs" HorizontalAlignment="Right" Margin="0,103,300,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="36" FontWeight="Bold"><Run Text="r"/><Run Text="hsOperand"/></TextBlock>
+        <TextBox x:Name="lhsOperand" HorizontalAlignment="Left" Margin="307,176,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" FontSize="30" Width="180"/>
+        <TextBox x:Name="rhsOperand" HorizontalAlignment="Right" Margin="0,176,310,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" FontSize="30" Width="180"/>
+        <StackPanel x:Name="operators"> 
+            <RadioButton x:Name="addition" Content="+ Addition" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,300,0,0" IsChecked="True"/>
+            <RadioButton x:Name="subtraction" Content="- Subtraction" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,10,0,0"/>
+            <RadioButton x:Name="multiplication" Content="* Multiplication" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0,10,0,0"/>
+            <RadioButton x:Name="division" Content="/ Division" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,10,0,0"/>
+        </StackPanel>
+        <Button x:Name="calculate" Content="Calculate" Margin="366,564,0,0" VerticalAlignment="Top" FontSize="20" Click="calculateClick"/>
+        <TextBlock x:Name="expression" TextWrapping="Wrap" Text="Expression:" Margin="366,624,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="20"/>
+        <TextBlock x:Name="result" TextWrapping="Wrap" Text="Result:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="366,676,0,0" FontSize="20"/>
+
+    </Grid>
+</Page>
