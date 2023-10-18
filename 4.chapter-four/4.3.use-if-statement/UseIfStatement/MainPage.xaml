@@ -1,0 +1,20 @@
+﻿<Page
+    x:Class="UseIfStatement.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:UseIfStatement"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <TextBlock x:Name="First" HorizontalAlignment="Left" Margin="210,108,0,0" TextWrapping="Wrap" Text="First:" VerticalAlignment="Top"/>
+        <TextBlock x:Name="Second" HorizontalAlignment="Left" Margin="210,143,0,0" TextWrapping="Wrap" Text="Second:" VerticalAlignment="Top"/>
+        <DatePicker x:Name="FirstData" Margin="415,100,0,0" VerticalAlignment="Top"/>
+        <DatePicker x:Name="SecondData" Margin="415,141,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="Compare" Content="Compare" Margin="224,203,0,0" VerticalAlignment="Top" Click="CompareClick"/>
+        <TextBox x:Name="info" HorizontalAlignment="Left" Margin="224,278,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="199" Width="487"/>
+
+    </Grid>
+</Page>
