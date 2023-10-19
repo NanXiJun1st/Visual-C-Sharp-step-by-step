@@ -1,0 +1,17 @@
+﻿<Page
+    x:Class="use_switch_statement.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:use_switch_statement"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <TextBox x:Name="originText" HorizontalAlignment="Left" Margin="319,143,0,0" TextWrapping="Wrap" Text="inRange = (lo &lt;=number) &amp;&amp; (hi &gt;= number);" VerticalAlignment="Top" Height="106" Width="313"/>
+        <TextBox x:Name="copedText" HorizontalAlignment="Left" Margin="319,333,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="106" Width="313"/>
+        <Button x:Name="copy" Content="Copy" Margin="319,282,0,0" VerticalAlignment="Top" Click="StartCopy"/>
+
+    </Grid>
+</Page>
