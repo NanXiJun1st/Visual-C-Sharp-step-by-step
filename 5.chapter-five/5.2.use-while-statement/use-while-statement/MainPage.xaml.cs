@@ -44,7 +44,7 @@ namespace use_while_statement
                 var fileStream = await file.OpenAsync(FileAccessMode.Read);
                 var inputStream = fileStream.GetInputStreamAt(0);
                 TextReader reader = new StreamReader(inputStream.AsStreamForRead());
-                DisplayData(reader);
+                DisplayDataUseForStatement(reader);
             }
         }
 
@@ -59,6 +59,17 @@ namespace use_while_statement
                 line = reader.ReadLine();
             }
             reader.Dispose();
+        }
+
+        private void DisplayDataUseForStatement(TextReader reader)
+        {
+            FileContent.Text = "";
+
+            for (string line = reader.ReadLine(); line != null; line = reader.ReadLine())
+            {
+                FileContent.Text += line + "\n";
+            }
+            reader.Dispose ();
         }
     }
 }
