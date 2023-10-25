@@ -52,7 +52,7 @@ namespace MathsOperators
         {
             int lhs = int.Parse(LeftOperandValue.Text);
             int rhs = int.Parse(RightOperandValue.Text);
-            int outcome = lhs * rhs;
+            double outcome = (double)(lhs * rhs); //将最终结果转换为double类型，不能解决Int32的溢出问题
 
             Expression.Text = $"{lhs} *  {rhs}";
             Result.Text = outcome.ToString();
