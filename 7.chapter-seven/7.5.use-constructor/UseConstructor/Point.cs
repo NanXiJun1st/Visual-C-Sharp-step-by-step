@@ -9,17 +9,20 @@ namespace UseConstructor
     class Point
     {
         private int x, y;
+        private static int objectCount = 0;
+
+        public static int ObjectCount() => objectCount;
         public Point()
         {
             this.x = -1;
             this.y = -1;
-            Console.WriteLine("Defaule init");
+            objectCount++;
         }
         public Point(int x, int y)
         {
             this.x = x;
             this.y = y;
-            Console.WriteLine("Assignment");
+            objectCount++;
         }
 
         public double DistanceTo(Point other)

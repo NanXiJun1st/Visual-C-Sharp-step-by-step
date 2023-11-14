@@ -15,7 +15,7 @@ namespace UseConstructor
             Point bottomRight = new Point(2496, 1664);
             double distance = origin.DistanceTo(bottomRight);
 
-            Console.WriteLine($"distance is: {distance}");
+            Console.WriteLine($"distance is: {distance}-----object count {Point.ObjectCount()}");
         }
 
         static void Main(string[] args)
