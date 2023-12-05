@@ -13,5 +13,5 @@
 - 将结构初始化后，复制初始化的值，此时修改初始化的值，不会对复制的值产生影像（两个栈块）
 - 将类初始化后，复制初始化的值，此时修改初始化的值，复制的值一起改变（复制的引用指向同一内存空间）  
 |||
-|--|--|
-|![class](https://github.com/NanXiJun1st/Visual-C-Sharp-step-by-step/blob/master/9.chapter_nine/9.2.use-structs/class.png)|![struct](https://github.com/NanXiJun1st/Visual-C-Sharp-step-by-step/blob/master/9.chapter_nine/9.2.use-structs/struct.png)
+|--|--
+|<image src=https://github.com/NanXiJun1st/Visual-C-Sharp-step-by-step/blob/master/9.chapter_nine/9.2.use-structs/class.png>|<img src=https://github.com/NanXiJun1st/Visual-C-Sharp-step-by-step/blob/master/9.chapter_nine/9.2.use-structs/struct.png>|
